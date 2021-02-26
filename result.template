@@ -1,7 +1,7 @@
 {
    "AlgorithmSpecification": { 
       "AlgorithmName": "string",
-      "EnableSageMakerMetricsTimeSeries": boolean,
+      "EnableSageMakerMetricsTimeSeries": true,
       "MetricDefinitions": [ 
          { 
             "Name": "string",
@@ -12,12 +12,12 @@
       "TrainingInputMode": "string"
    },
    "AutoMLJobArn": "string",
-   "BillableTimeInSeconds": number,
+   "BillableTimeInSeconds": 10,
    "CheckpointConfig": { 
       "LocalPath": "string",
       "S3Uri": "string"
    },
-   "CreationTime": number,
+   "CreationTime": 10,
    "DebugHookConfig": { 
       "CollectionConfigurations": [ 
          { 
@@ -43,21 +43,21 @@
             "string" : "string" 
          },
          "S3OutputPath": "string",
-         "VolumeSizeInGB": number
+         "VolumeSizeInGB": 10
       }
    ],
    "DebugRuleEvaluationStatuses": [ 
       { 
-         "LastModifiedTime": number,
+         "LastModifiedTime": 10,
          "RuleConfigurationName": "string",
          "RuleEvaluationJobArn": "string",
          "RuleEvaluationStatus": "string",
          "StatusDetails": "string"
       }
    ],
-   "EnableInterContainerTrafficEncryption": boolean,
-   "EnableManagedSpotTraining": boolean,
-   "EnableNetworkIsolation": boolean,
+   "EnableInterContainerTrafficEncryption": true,
+   "EnableManagedSpotTraining": true,
+   "EnableNetworkIsolation": true,
    "ExperimentConfig": { 
       "ExperimentName": "string",
       "TrialComponentDisplayName": "string",
@@ -67,8 +67,8 @@
    "FinalMetricDataList": [ 
       { 
          "MetricName": "string",
-         "Timestamp": number,
-         "Value": number
+         "Timestamp": 10,
+         "Value": 10
       }
    ],
    "HyperParameters": { 
@@ -96,12 +96,12 @@
          "InputMode": "string",
          "RecordWrapperType": "string",
          "ShuffleConfig": { 
-            "Seed": number
+            "Seed": 10
          }
       }
    ],
    "LabelingJobArn": "string",
-   "LastModifiedTime": number,
+   "LastModifiedTime": 10,
    "ModelArtifacts": { 
       "S3ModelArtifacts": "string"
    },
@@ -110,7 +110,7 @@
       "S3OutputPath": "string"
    },
    "ProfilerConfig": { 
-      "ProfilingIntervalInMilliseconds": number,
+      "ProfilingIntervalInMilliseconds": 10,
       "ProfilingParameters": { 
          "string" : "string" 
       },
@@ -126,12 +126,12 @@
             "string" : "string" 
          },
          "S3OutputPath": "string",
-         "VolumeSizeInGB": number
+         "VolumeSizeInGB": 10
       }
    ],
    "ProfilerRuleEvaluationStatuses": [ 
       { 
-         "LastModifiedTime": number,
+         "LastModifiedTime": 10,
          "RuleConfigurationName": "string",
          "RuleEvaluationJobArn": "string",
          "RuleEvaluationStatus": "string",
@@ -140,35 +140,35 @@
    ],
    "ProfilingStatus": "string",
    "ResourceConfig": { 
-      "InstanceCount": number,
+      "InstanceCount": 10,
       "InstanceType": "string",
       "VolumeKmsKeyId": "string",
-      "VolumeSizeInGB": number
+      "VolumeSizeInGB": 10
    },
    "RoleArn": "string",
    "SecondaryStatus": "string",
    "SecondaryStatusTransitions": [ 
       { 
-         "EndTime": number,
-         "StartTime": number,
+         "EndTime": 10,
+         "StartTime": 10,
          "Status": "string",
          "StatusMessage": "string"
       }
    ],
    "StoppingCondition": { 
-      "MaxRuntimeInSeconds": number,
-      "MaxWaitTimeInSeconds": number
+      "MaxRuntimeInSeconds": 10,
+      "MaxWaitTimeInSeconds": 10
    },
    "TensorBoardOutputConfig": { 
       "LocalPath": "string",
       "S3OutputPath": "string"
    },
-   "TrainingEndTime": number,
+   "TrainingEndTime": 10,
    "TrainingJobArn": "string",
    "TrainingJobName": "string",
    "TrainingJobStatus": "InProgress|Completed|Failed|Stopping|Stopped",
-   "TrainingStartTime": number,
-   "TrainingTimeInSeconds": number,
+   "TrainingStartTime": 10,
+   "TrainingTimeInSeconds": 10,
    "TuningJobArn": "string",
    "VpcConfig": { 
       "SecurityGroupIds": [ "string" ],
