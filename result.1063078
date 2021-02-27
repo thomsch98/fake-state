@@ -1,0 +1,183 @@
+{
+  "AlgorithmSpecification": {
+    "AlgorithmName": "string",
+    "EnableSageMakerMetricsTimeSeries": true,
+    "MetricDefinitions": [
+      {
+        "Name": "string",
+        "Regex": "string"
+      }
+    ],
+    "TrainingImage": "string",
+    "TrainingInputMode": "string"
+  },
+  "AutoMLJobArn": "string",
+  "BillableTimeInSeconds": 10,
+  "CheckpointConfig": {
+    "LocalPath": "string",
+    "S3Uri": "string"
+  },
+  "CreationTime": 10,
+  "DebugHookConfig": {
+    "CollectionConfigurations": [
+      {
+        "CollectionName": "string",
+        "CollectionParameters": {
+          "string": "string"
+        }
+      }
+    ],
+    "HookParameters": {
+      "string": "string"
+    },
+    "LocalPath": "string",
+    "S3OutputPath": "string"
+  },
+  "DebugRuleConfigurations": [
+    {
+      "InstanceType": "string",
+      "LocalPath": "string",
+      "RuleConfigurationName": "string",
+      "RuleEvaluatorImage": "string",
+      "RuleParameters": {
+        "string": "string"
+      },
+      "S3OutputPath": "string",
+      "VolumeSizeInGB": 10
+    }
+  ],
+  "DebugRuleEvaluationStatuses": [
+    {
+      "LastModifiedTime": 10,
+      "RuleConfigurationName": "string",
+      "RuleEvaluationJobArn": "string",
+      "RuleEvaluationStatus": "string",
+      "StatusDetails": "string"
+    }
+  ],
+  "EnableInterContainerTrafficEncryption": true,
+  "EnableManagedSpotTraining": true,
+  "EnableNetworkIsolation": true,
+  "ExperimentConfig": {
+    "ExperimentName": "string",
+    "TrialComponentDisplayName": "string",
+    "TrialName": "string"
+  },
+  "FailureReason": "string",
+  "FinalMetricDataList": [
+    {
+      "MetricName": "string",
+      "Timestamp": 10,
+      "Value": 10
+    }
+  ],
+  "HyperParameters": {
+    "string": "string"
+  },
+  "InputDataConfig": [
+    {
+      "ChannelName": "string",
+      "CompressionType": "string",
+      "ContentType": "string",
+      "DataSource": {
+        "FileSystemDataSource": {
+          "DirectoryPath": "string",
+          "FileSystemAccessMode": "string",
+          "FileSystemId": "string",
+          "FileSystemType": "string"
+        },
+        "S3DataSource": {
+          "AttributeNames": [
+            "string"
+          ],
+          "S3DataDistributionType": "string",
+          "S3DataType": "string",
+          "S3Uri": "string"
+        }
+      },
+      "InputMode": "string",
+      "RecordWrapperType": "string",
+      "ShuffleConfig": {
+        "Seed": 10
+      }
+    }
+  ],
+  "LabelingJobArn": "string",
+  "LastModifiedTime": 10,
+  "ModelArtifacts": {
+    "S3ModelArtifacts": "string"
+  },
+  "OutputDataConfig": {
+    "KmsKeyId": "string",
+    "S3OutputPath": "string"
+  },
+  "ProfilerConfig": {
+    "ProfilingIntervalInMilliseconds": 10,
+    "ProfilingParameters": {
+      "string": "string"
+    },
+    "S3OutputPath": "string"
+  },
+  "ProfilerRuleConfigurations": [
+    {
+      "InstanceType": "string",
+      "LocalPath": "string",
+      "RuleConfigurationName": "string",
+      "RuleEvaluatorImage": "string",
+      "RuleParameters": {
+        "string": "string"
+      },
+      "S3OutputPath": "string",
+      "VolumeSizeInGB": 10
+    }
+  ],
+  "ProfilerRuleEvaluationStatuses": [
+    {
+      "LastModifiedTime": 10,
+      "RuleConfigurationName": "string",
+      "RuleEvaluationJobArn": "string",
+      "RuleEvaluationStatus": "string",
+      "StatusDetails": "string"
+    }
+  ],
+  "ProfilingStatus": "string",
+  "ResourceConfig": {
+    "InstanceCount": 10,
+    "InstanceType": "string",
+    "VolumeKmsKeyId": "string",
+    "VolumeSizeInGB": 10
+  },
+  "RoleArn": "string",
+  "SecondaryStatus": "string",
+  "SecondaryStatusTransitions": [
+    {
+      "EndTime": 10,
+      "StartTime": 10,
+      "Status": "string",
+      "StatusMessage": "string"
+    }
+  ],
+  "StoppingCondition": {
+    "MaxRuntimeInSeconds": 10,
+    "MaxWaitTimeInSeconds": 10
+  },
+  "TensorBoardOutputConfig": {
+    "LocalPath": "string",
+    "S3OutputPath": "string"
+  },
+  "TrainingEndTime": 10,
+  "TrainingJobArn": "string",
+  "TrainingJobName": "string",
+  "TrainingJobStatus": "$STATUS",
+  "TrainingStartTime": "$TIME",
+  "TrainingTimeInSeconds": 10,
+  "TuningJobArn": "string",
+  "VpcConfig": {
+    "SecurityGroupIds": [
+      "string"
+    ],
+    "Subnets": [
+      "string"
+    ]
+  }
+}
