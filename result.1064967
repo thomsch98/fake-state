@@ -165,7 +165,7 @@
     "LocalPath": "string",
     "S3OutputPath": "string"
   },
-  "TrainingEndTime": "1614504810",
+  "TrainingEndTime": "1614504827",
   "TrainingJobArn": "string",
   "TrainingJobName": "string",
   "TrainingJobStatus": "Completed",
