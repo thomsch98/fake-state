@@ -168,8 +168,8 @@
   "TrainingEndTime": 10,
   "TrainingJobArn": "string",
   "TrainingJobName": "string",
-  "TrainingJobStatus": "$STATUS",
-  "TrainingStartTime": "$TIME",
+  "TrainingJobStatus": "InProgress",
+  "TrainingStartTime": "1614491110",
   "TrainingTimeInSeconds": 10,
   "TuningJobArn": "string",
   "VpcConfig": {
