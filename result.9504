@@ -169,7 +169,7 @@
   "TrainingJobArn": "string",
   "TrainingJobName": "string",
   "TrainingJobStatus": "InProgress",
-  "TrainingStartTime": "1614491695",
+  "TrainingStartTime": "1614493043",
   "TrainingTimeInSeconds": 10,
   "TuningJobArn": "string",
   "VpcConfig": {
