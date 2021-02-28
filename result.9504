@@ -8,7 +8,7 @@
         "Regex": "string"
       }
     ],
-    "TrainingImage": "",
+    "TrainingImage": "registry.haufe.io/tschuering/rasa:cca7f5435699e7b0f4ecf36624f62537faedb36f",
     "TrainingInputMode": "string"
   },
   "AutoMLJobArn": "string",
@@ -165,11 +165,11 @@
     "LocalPath": "string",
     "S3OutputPath": "string"
   },
-  "TrainingEndTime": "1614504881",
+  "TrainingEndTime": 10,
   "TrainingJobArn": "string",
   "TrainingJobName": "string",
-  "TrainingJobStatus": "Completed",
-  "TrainingStartTime": "1614504691",
+  "TrainingJobStatus": "InProgress",
+  "TrainingStartTime": "1614504952",
   "TrainingTimeInSeconds": 10,
   "TuningJobArn": "string",
   "VpcConfig": {
