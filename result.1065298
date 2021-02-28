@@ -165,11 +165,11 @@
     "LocalPath": "string",
     "S3OutputPath": "string"
   },
-  "TrainingEndTime": "1614516179",
+  "TrainingEndTime": 10,
   "TrainingJobArn": "string",
   "TrainingJobName": "string",
-  "TrainingJobStatus": "Completed",
-  "TrainingStartTime": "1614516134",
+  "TrainingJobStatus": "InProgress",
+  "TrainingStartTime": "1614516497",
   "TrainingTimeInSeconds": 10,
   "TuningJobArn": "string",
   "VpcConfig": {
