@@ -8,7 +8,7 @@
         "Regex": "string"
       }
     ],
-    "TrainingImage": "registry.haufe.io/tschuering/rasa:cca7f5435699e7b0f4ecf36624f62537faedb36f",
+    "TrainingImage": "",
     "TrainingInputMode": "string"
   },
   "AutoMLJobArn": "string",
@@ -169,7 +169,7 @@
   "TrainingJobArn": "string",
   "TrainingJobName": "string",
   "TrainingJobStatus": "InProgress",
-  "TrainingStartTime": "1614504595",
+  "TrainingStartTime": "1614504646",
   "TrainingTimeInSeconds": 10,
   "TuningJobArn": "string",
   "VpcConfig": {
